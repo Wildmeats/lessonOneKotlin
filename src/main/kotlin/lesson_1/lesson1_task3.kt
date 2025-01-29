@@ -4,9 +4,9 @@ fun main() {
     val yearOfFlight: Int = 1961
     var hour: Int = 9
     var minute: Int = 7
-
-    println("Год полета - $yearOfFlight \nВзлет - 0$hour:0$minute")
+    val formattedTime = "%02d:%02d".format(hour, minute)
+    println("Год полета - $yearOfFlight \nВзлет - $formattedTime")
     hour = 10
     minute = 55
-    println("Посадка - $hour:$minute")
+    println("Посадка - $formattedTime")
 }

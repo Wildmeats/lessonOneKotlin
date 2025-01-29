@@ -6,6 +6,6 @@ fun main(){
     var numberOfЕmployees: Int = 2000
     println("У вас оплачено $numberOfOrders заказов\n$orderPaid")
     //println("Количество работников интернет магазина $numberOfЕmployees")
-    numberOfЕmployees -=1 // один работник уволился
+    numberOfЕmployees -=1
     println("Количество работников интернет-магазина $numberOfЕmployees")
 }

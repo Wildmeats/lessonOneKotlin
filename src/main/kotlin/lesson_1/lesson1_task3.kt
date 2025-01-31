@@ -1,12 +1,12 @@
 package org.example.lesson_1
 
 fun main() {
-    val yearOfFlight: Int = 1961
-    var hour: Int = 9
-    var minute: Int = 7
-    val formattedTime = "%02d:%02d".format(hour, minute)
-    println("Год полета - $yearOfFlight \nВзлет - $formattedTime")
-    hour = 10
-    minute = 55
-    println("Посадка - $formattedTime")
+    val yearOfFlight = "1961"
+    var hour = "09"
+    var minute = "07"
+
+    println("Год полета - $yearOfFlight \nВзлет - $hour:$minute")
+    hour = "10"
+    minute = "55"
+    println("Посадка - $hour:$minute")
 }

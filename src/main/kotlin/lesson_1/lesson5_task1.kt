@@ -11,7 +11,7 @@ fun main() {
 
     if (res == 5) {
         println("\"Добро пожаловать!\"")
-    } else  {
+    } else {
         println("\"Доступ запрещен\"")
     }
 

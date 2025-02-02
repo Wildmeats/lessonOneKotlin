@@ -1,7 +1,7 @@
 package org.example.lesson_1
+
 const val AGE = 18
 fun main() {
-
 
     var currentYear = 2025
 
@@ -11,11 +11,8 @@ fun main() {
 
     val currentAge = currentYear - yearOfBirth
 
-    if(currentAge >= AGE) {
+    if (currentAge >= AGE) {
         println("\"“Показать экран со скрытым контентом\"")
     }
-
-
-
 
 }

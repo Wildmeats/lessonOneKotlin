@@ -2,6 +2,10 @@ package org.example.lesson_1
 
 import kotlin.random.Random
 
+const val CHECK_NUMBER = 1
+const val CHECK_NUMBER2= 2
+const val CHECK_NUMBER3= 3
+
 fun main() {
 
     val winNum = List(3) { Random.nextInt(0, 42).toByte() }
@@ -32,11 +36,11 @@ fun main() {
 
     val convergences = userNum.count { it in winNum }
 
-    if (convergences == 3) {
+    if (convergences == CHECK_NUMBER3) {
         println("Вы угадали все числа! ДЖЕКПОТ!!!")
-    } else if (convergences == 2) {
+    } else if (convergences == CHECK_NUMBER2) {
         println("Вы угадали 2 числа и получаете крупный приз!")
-    } else if (convergences == 1) {
+    } else if (convergences == CHECK_NUMBER) {
         println("Вы угадали одно число и получаете утешительный приз.")
     } else {
         println("Вы не угадали ни одного из чисел...")

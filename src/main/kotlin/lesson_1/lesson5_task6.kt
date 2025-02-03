@@ -6,7 +6,7 @@ fun main() {
 
     val userWeight: Double = readln().toDouble()
 
-    println("Теперь введите свой рот в сантиметрах. (пример: 1.78")
+    println("Теперь введите свой роcт в сантиметрах. (пример: 1.78")
 
     val userHeight: Double = readln().toDouble()
 
@@ -20,6 +20,6 @@ fun main() {
 
     }
     val formattedBmi = String.format("%.2f", bmi)
-    println("$formattedBmi ")
+    println("$formattedBmi")
 
 }
